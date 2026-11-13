@@ -1,0 +1,238 @@
+{
+ "meta": {
+  "fuentes": [
+   {
+    "capa": "geonode:rfes",
+    "titulo": "Establecimientos de salud (IDESA)",
+    "url": "https://geoportal.salta.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typeName=geonode:rfes&outputFormat=application/json",
+    "registros": 931
+   },
+   {
+    "capa": "geonode:establecimientos_educativos",
+    "titulo": "Establecimientos educativos (IDESA)",
+    "url": "https://geoportal.salta.gob.ar/geoserver/ows?service=WFS&version=1.1.0&request=GetFeature&typeName=geonode:establecimientos_educativos&outputFormat=application/json",
+    "registros": 1510
+   },
+   {
+    "capa": "geonode:pob2022_deptos",
+    "titulo": "Población por departamento, Censo 2022 (IDESA)",
+    "url": "https://geoportal.salta.gob.ar/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode:pob2022_deptos&outputFormat=application/json&srsName=EPSG:4326"
+   }
+  ],
+  "metodologia": "Conteo de registros por atributo de departamento de cada capa, dividido por la población del Censo 2022 y multiplicado por 10.000. Cuenta registros (no capacidad, complejidad ni calidad del servicio).",
+  "sin_asignar": {
+   "salud": 0,
+   "educativos": 0
+  },
+  "descargado": "2026-11-13T15:50:04.612Z"
+ },
+ "filas": [
+  {
+   "departamento": "General Güemes",
+   "poblacion_2022": 56166,
+   "densidad_hab_km2": 25.6,
+   "establecimientos_salud": 24,
+   "salud_cada_10k_hab": 4.3,
+   "establecimientos_educativos": 54,
+   "educativos_cada_10k_hab": 9.6
+  },
+  {
+   "departamento": "San Carlos",
+   "poblacion_2022": 7798,
+   "densidad_hab_km2": 1.4,
+   "establecimientos_salud": 15,
+   "salud_cada_10k_hab": 19.2,
+   "establecimientos_educativos": 30,
+   "educativos_cada_10k_hab": 38.5
+  },
+  {
+   "departamento": "Cachi",
+   "poblacion_2022": 8948,
+   "densidad_hab_km2": 3.1,
+   "establecimientos_salud": 17,
+   "salud_cada_10k_hab": 19,
+   "establecimientos_educativos": 27,
+   "educativos_cada_10k_hab": 30.2
+  },
+  {
+   "departamento": "Chicoana",
+   "poblacion_2022": 24729,
+   "densidad_hab_km2": 23.5,
+   "establecimientos_salud": 16,
+   "salud_cada_10k_hab": 6.5,
+   "establecimientos_educativos": 31,
+   "educativos_cada_10k_hab": 12.5
+  },
+  {
+   "departamento": "La Viña",
+   "poblacion_2022": 8900,
+   "densidad_hab_km2": 4.4,
+   "establecimientos_salud": 9,
+   "salud_cada_10k_hab": 10.1,
+   "establecimientos_educativos": 16,
+   "educativos_cada_10k_hab": 18
+  },
+  {
+   "departamento": "Metán",
+   "poblacion_2022": 48245,
+   "densidad_hab_km2": 9.2,
+   "establecimientos_salud": 30,
+   "salud_cada_10k_hab": 6.2,
+   "establecimientos_educativos": 57,
+   "educativos_cada_10k_hab": 11.8
+  },
+  {
+   "departamento": "Molinos",
+   "poblacion_2022": 5820,
+   "densidad_hab_km2": 1.6,
+   "establecimientos_salud": 15,
+   "salud_cada_10k_hab": 25.8,
+   "establecimientos_educativos": 25,
+   "educativos_cada_10k_hab": 43
+  },
+  {
+   "departamento": "Cerrillos",
+   "poblacion_2022": 55949,
+   "densidad_hab_km2": 103.5,
+   "establecimientos_salud": 20,
+   "salud_cada_10k_hab": 3.6,
+   "establecimientos_educativos": 37,
+   "educativos_cada_10k_hab": 6.6
+  },
+  {
+   "departamento": "La Caldera",
+   "poblacion_2022": 12299,
+   "densidad_hab_km2": 11.3,
+   "establecimientos_salud": 7,
+   "salud_cada_10k_hab": 5.7,
+   "establecimientos_educativos": 21,
+   "educativos_cada_10k_hab": 17.1
+  },
+  {
+   "departamento": "Anta",
+   "poblacion_2022": 70170,
+   "densidad_hab_km2": 3.1,
+   "establecimientos_salud": 36,
+   "salud_cada_10k_hab": 5.1,
+   "establecimientos_educativos": 99,
+   "educativos_cada_10k_hab": 14.1
+  },
+  {
+   "departamento": "Iruya",
+   "poblacion_2022": 6118,
+   "densidad_hab_km2": 1.7,
+   "establecimientos_salud": 25,
+   "salud_cada_10k_hab": 40.9,
+   "establecimientos_educativos": 32,
+   "educativos_cada_10k_hab": 52.3
+  },
+  {
+   "departamento": "Los Andes",
+   "poblacion_2022": 7182,
+   "densidad_hab_km2": 0.3,
+   "establecimientos_salud": 5,
+   "salud_cada_10k_hab": 7,
+   "establecimientos_educativos": 19,
+   "educativos_cada_10k_hab": 26.5
+  },
+  {
+   "departamento": "Orán",
+   "poblacion_2022": 160642,
+   "densidad_hab_km2": 13.8,
+   "establecimientos_salud": 83,
+   "salud_cada_10k_hab": 5.2,
+   "establecimientos_educativos": 132,
+   "educativos_cada_10k_hab": 8.2
+  },
+  {
+   "departamento": "Rosario de la Frontera",
+   "poblacion_2022": 33809,
+   "densidad_hab_km2": 6.2,
+   "establecimientos_salud": 25,
+   "salud_cada_10k_hab": 7.4,
+   "establecimientos_educativos": 49,
+   "educativos_cada_10k_hab": 14.5
+  },
+  {
+   "departamento": "La Poma",
+   "poblacion_2022": 1789,
+   "densidad_hab_km2": 0.4,
+   "establecimientos_salud": 8,
+   "salud_cada_10k_hab": 44.7,
+   "establecimientos_educativos": 12,
+   "educativos_cada_10k_hab": 67.1
+  },
+  {
+   "departamento": "Cafayate",
+   "poblacion_2022": 17829,
+   "densidad_hab_km2": 11.5,
+   "establecimientos_salud": 13,
+   "salud_cada_10k_hab": 7.3,
+   "establecimientos_educativos": 23,
+   "educativos_cada_10k_hab": 12.9
+  },
+  {
+   "departamento": "Capital",
+   "poblacion_2022": 627704,
+   "densidad_hab_km2": 365.8,
+   "establecimientos_salud": 364,
+   "salud_cada_10k_hab": 5.8,
+   "establecimientos_educativos": 393,
+   "educativos_cada_10k_hab": 6.3
+  },
+  {
+   "departamento": "La Candelaria",
+   "poblacion_2022": 7205,
+   "densidad_hab_km2": 5.3,
+   "establecimientos_salud": 5,
+   "salud_cada_10k_hab": 6.9,
+   "establecimientos_educativos": 13,
+   "educativos_cada_10k_hab": 18
+  },
+  {
+   "departamento": "Guachipas",
+   "poblacion_2022": 3491,
+   "densidad_hab_km2": 1.3,
+   "establecimientos_salud": 9,
+   "salud_cada_10k_hab": 25.8,
+   "establecimientos_educativos": 15,
+   "educativos_cada_10k_hab": 43
+  },
+  {
+   "departamento": "Santa Victoria",
+   "poblacion_2022": 9413,
+   "densidad_hab_km2": 2.3,
+   "establecimientos_salud": 41,
+   "salud_cada_10k_hab": 43.6,
+   "establecimientos_educativos": 54,
+   "educativos_cada_10k_hab": 57.4
+  },
+  {
+   "departamento": "General José de San Martín",
+   "poblacion_2022": 178004,
+   "densidad_hab_km2": 11.1,
+   "establecimientos_salud": 83,
+   "salud_cada_10k_hab": 4.7,
+   "establecimientos_educativos": 184,
+   "educativos_cada_10k_hab": 10.3
+  },
+  {
+   "departamento": "Rivadavia",
+   "poblacion_2022": 38113,
+   "densidad_hab_km2": 1.5,
+   "establecimientos_salud": 46,
+   "salud_cada_10k_hab": 12.1,
+   "establecimientos_educativos": 130,
+   "educativos_cada_10k_hab": 34.1
+  },
+  {
+   "departamento": "Rosario de Lerma",
+   "poblacion_2022": 51028,
+   "densidad_hab_km2": 9.9,
+   "establecimientos_salud": 35,
+   "salud_cada_10k_hab": 6.9,
+   "establecimientos_educativos": 57,
+   "educativos_cada_10k_hab": 11.2
+  }
+ ]
+}

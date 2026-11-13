@@ -1,0 +1,8 @@
+node_modules
+.next
+.env*
+!.env.example
+contracts/node_modules
+contracts/artifacts
+contracts/cache
+.git

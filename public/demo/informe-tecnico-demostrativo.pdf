@@ -1,0 +1,41 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 506 >>
+stream
+BT /F1 13 Tf 60 780 Td 18 TL
+(SIMULACION / DATO DEMOSTRATIVO) Tj T*
+(TERRITORIO 360 - Informe tecnico demostrativo) Tj T*
+(Proyecto Demostrativo Puna (PDP-01) - hipotetico) Tj T*
+(Compromiso CMP-01: Ampliar la infraestructura de agua segura) Tj T*
+(Periodo: T3 2026 - Avance declarado de obra: 35%) Tj T*
+(Este documento es ficticio y se usa solo para demostrar) Tj T*
+(el calculo de huella SHA-256 y su registro en Avalanche Fuji.) Tj T*
+(No representa a ninguna empresa, comunidad ni obra real.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000798 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+868
+%%EOF
