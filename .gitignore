@@ -41,3 +41,23 @@ yarn-error.log*
 next-env.d.ts
 
 !.env.example
+
+# cualquier node_modules (incluye contracts/)
+node_modules/
+
+# hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/coverage/
+contracts/coverage.json
+
+# claves y credenciales
+*.key
+*.p12
+*.pfx
+id_rsa*
+.oci/
+oci_api_key*
+wallet*.json
+secrets/
